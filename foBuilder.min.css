@@ -308,3 +308,18 @@ label.checkbox :checked + span  {
 	width: 10px;
 	height: 10px;
 }
+
+
+#directions {
+     background: #001a00;
+     color: #17ff14;
+	 width: 500px;
+}
+ol {
+	text-align: left;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
