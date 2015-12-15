@@ -39,7 +39,7 @@
             <br />
             <div id="progress"></div>
             <br />
-            <button onclick="calculate();">Calculate</button>&nbsp;<button onclick="reset()">Reset</button>&nbsp;<button onclick="selectAll()">Select All</button><br />
+            <button onmouseup="calculate();">Calculate</button>&nbsp;<button onmouseup="reset()">Reset</button>&nbsp;<button onmouseup="selectAll()">Select All</button>&nbsp;<button onmousedown="random()">Random</button><br />
             <br />
             <div id="char"></div>
             <div class="levelList" id="levelLista"></div>
@@ -49,8 +49,40 @@
             <br />
 <!--        <div id="test"></div>-->
             <br />
+			<div id="updateLog">
+				<p>
+					<ul>
+						<li>To Do List: </li>
+						<li>
+							<ol>
+								<li>Add Current Build to calculate forward</li>
+								<li>Correct some annoying CSS</li>
+								<li>Include Bobbleheads / You're Special</li>
+								<li>Some form of save feature /  build sharing </li>
+							</ol>
+						</li>
+
+						<li>Update Log 12/15/2015: </li>
+						<li>
+							<ol>
+								<li>Added Random button which picks 35 ranks of perks and calculates a build.</li>
+								<li>Added popup mouseover for perk ranks.</li>
+								<li>Adjusted the priority inputs to hopefully make it more clear that they can be changed.</li>
+								<li>Allowed perks to have their own priority.</li>
+								<li>Allowed the selection of a max rank in the perk.</li>
+								<li>Changed the sorting on the calculated levels to get a greater variety of perks earlier. The calculate will now sort every rank of the perks you have selected by the level and then sort them in the levels by priority.</li>
+								<li>Changed title in the special box to make it more clear that these are your intended starting special.</li>
+								<li>Improved Calculation Speed.</li>
+							</ol>
+						</li>
+					</ul>
+				</p>
+			</div>
             <br />
+
         </div>
     </center>
+    
+    <div id="perkHover" style='display: none'></div>
 </body>
 </html>
