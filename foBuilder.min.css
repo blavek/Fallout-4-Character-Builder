@@ -68,8 +68,6 @@ background:  #FFF;
     height:  200px;
     background:  #001a00;
     width:  1027px;
-    overflow-Y: auto;
-    overflow-X: hidden;
 }
 
 #perk > .perkRow  {
